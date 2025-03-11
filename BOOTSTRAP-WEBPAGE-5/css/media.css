@@ -1,0 +1,33 @@
+@media(max-width:992px){
+    #textbox1{
+        display: none;
+    }
+    #textbox2{
+        display: none;
+    }
+    #textbox3{
+        display: none;
+    }
+}
+@media(max-width:768px){
+    #textbox1{
+        display: none;
+    }
+    #textbox2{
+        display: none;
+    }
+    #textbox3{
+        display: none;
+    }
+}
+@media(max-width:576px){
+    #textbox1{
+        display: none;
+    }
+    #textbox2{
+        display: none;
+    }
+    #textbox3{
+        display: none;
+    }
+}

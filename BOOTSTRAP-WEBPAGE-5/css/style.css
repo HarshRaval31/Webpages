@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", "sans-serif";
+}
+
+  
+#icon {
+    position: relative;
+}
+
+#icon::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: skyblue;
+    transition: 0.5s;
+    border-radius: 50px;
+
+}
+
+#icon:hover::before {
+    width: 100%;
+}
+
+#icon:hover {
+    font-weight: 500;
+}
+#textbox1{
+   margin-top: -370px;
+   margin-left: -700px;
+   /* text-align: start; */
+}
+#textbox2{
+    margin-top: -370px;
+    margin-left: -720px;
+    /* text-align: start; */
+ }
+ #textbox3{
+    margin-top: -370px;
+    margin-left: 550px;
+    /* text-align: start; */
+ }
+ .bg{
+    background: linear-gradient(to right, #1FF2A1,#11BDFB);
+    height: 30px;
+    line-height: 30px;
+ }
+ /* .section1{
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+ }
+ #card1{
+    width: 200px;
+ }  */
+ #btnlog{
+   position: relative;
+   z-index: 1;
+   color: white;
+}
+
+#btnlog::before{
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   border-radius: 6px;
+   width: 0%;
+   height: 100%;
+   transition: 0.5s;
+   background-color: white;
+}
+#btnlog:hover::before{
+      width: 100%;
+      z-index: -1;
+}
+#btnlog:hover{
+   color: black;
+   box-shadow: 2px 2px 15px 1px #11BDFB;
+}
+
+
+ .section2{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+ }
+ 
+ #icon1{
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    padding: 10px;
+    /* display: none; */
+    /* letter-spacing: 10px; */
+ }
+  #icon1:hover{
+    background-color: #11BDFB;
+    color: white;
+    transform: scale(0.9);
+    box-shadow: 2px 2px 3px 2px rgb(163, 163, 163);
+    
+ }
+ #card1{
+    position: relative;
+
+ }
+ #cardimg1h{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+ }
+
+ #card1:hover #cardimg1h{
+   display: block;
+ }
+
+ #card1:hover{
+    box-shadow: 3px 3px 10px 4px dimgray;
+ }
+ #card2{
+    border-radius: 15px;
+ }
+
+ #navh:hover{
+   color: #11BDFB;
+ }
+ #sec4{
+    background-color: #EBEBEB;
+ }
+ #gamebanner{
+    border-radius: 10px;
+ }
+ #card21{
+    position: relative;
+ }
+ #card2h{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    
+ }
+ #card22{
+    position: relative;
+ }
+ #card2h{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+ }
+ #card23{
+    position: relative;
+ }
+ #card2h{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+ }
+ #card24{
+    position: relative;
+ }
+ #card2h{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+   
+ }
+
+ #card24:hover #card2h{ 
+    display: block;
+    
+ }
+ #card24:hover{
+    box-shadow: 3px 3px 10px 2px dimgray;
+ }
+
+#view{
+   position: relative;
+   z-index: 1;
+   color: white;
+}
+#view::before{
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   border-radius: 6px;
+   width: 0%;
+   height: 100%;
+   transition: 0.5s;
+   background-color: white;
+}
+#view:hover::before{
+      width: 100%;
+      z-index: -1;
+}
+#view:hover{
+   color: black;
+   box-shadow: 2px 2px 15px 1px #11BDFB;
+}
+
+ #videogame{
+    
+    position: relative;
+
+ }
+ #crd2h{
+   overflow: hidden;
+   border-radius: 10px;
+ }
+#card2:hover{
+   transform: scale(1.2);
+  
+   transition: 0.5s;
+   
+}
+/* #card2:hover{
+   box-shadow: 1px 1px 15px 1px #11BDFB;
+} */
+
+
+ #gm{
+    border-radius: 15px;
+}
+ #play{
+    position: absolute;
+    width: 64px;
+    top: 55%;
+    left: 50%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    animation: play;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 1.5s;
+ }
+ @keyframes play{
+    0%{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(0.8);
+    }
+ }
+ #slidericon:hover{
+      transform: scale(1.1);
+ }
+ #sec7{
+   background-color: #EBEBEB;
+   border-radius: 15px;
+ }
+
+
+
+ #footerbg{
+   background-color: #EBEBEB;
+ }
+ #fa{
+   transition: 0.5s;
+ }
+ #fa:hover{
+   transform: translateX(15px);
+   color: blue;
+   text-decoration: underline;
+ }
+ #location{
+   padding: 10px;
+   background-color: #B18B5E;
+ }
+
+#gmbnr{
+   border-radius: 10px;
+   overflow: hidden;
+} 
+
+#gamebanner:hover{
+   transform: scale(1.2);
+   transition: 0.5s;
+}
+
+#shop{
+   position: relative;
+   z-index: 1;
+   color: white;
+}
+
+#shop::before{
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   border-radius: 6px;
+   width: 0%;
+   height: 100%;
+   transition: 0.5s;
+   background-color: white;
+}
+#shop:hover::before{
+      width: 100%;
+      z-index: -1;
+}
+#shop:hover{
+   color: black;
+   box-shadow: 2px 2px 15px 1px #11BDFB;
+}
+
+
+#read{
+   position: relative;
+   z-index: 1;
+   color: white;
+}
+
+#read::before{
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   border-radius: 6px;
+   width: 0%;
+   height: 100%;
+   transition: 0.5s;
+   background-color: white;
+}
+#read:hover::before{
+      width: 100%;
+      z-index: -1;
+}
+#read:hover{
+   color: black;
+   box-shadow: 2px 2px 15px 1px #11BDFB;
+}
+
+#blog:hover{
+   background-color: #ebebeb;
+}
+
+
+#shop1{
+   position: relative;
+   z-index: 1;
+   color: white;
+}
+
+#shop1::before{
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   border-radius: 6px;
+   width: 0%;
+   height: 100%;
+   transition: 0.5s;
+   background-color: white;
+}
+#shop1:hover::before{
+      width: 100%;
+      z-index: -1;
+}
+#shop1:hover{
+   color: black;
+   box-shadow: 2px 2px 15px 1px #11BDFB;
+}
+
+
+
+
+
+ /* .find_a_store */
+

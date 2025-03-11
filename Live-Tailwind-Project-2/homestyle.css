@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rajdhani", "sans-serif";
+}
+
+.slide-main{
+    background-image: url(/Assets/home1-sale.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.slide-imgs{
+    animation: slide-imgs1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes slide-imgs1{
+    0%{
+        transform: translateY(-60px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(-60px);
+    }
+}
+
+/* .section-2 */
+/* .sect-21{
+    background-image: url(/Assets/home1-banner-1.png);
+}
+
+.sect-22{
+    background-image: url(/Assets/home1-banner-2.png);
+} */
+
+/* .section-5 */
+.sect-51{
+    background-image: url(/Assets/home1-banner-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sect-52{
+    background-image: url(/Assets/home1-banner-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sect-53{
+    background-image: url(/Assets/home1-banner-5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .section-6 */
+* fancy-box */
+.gl_sec{
+    width:100%;
+    padding:80px 0;
+  }
+  
+
+  .gl_sec img{
+    width:100%;
+    margin-bottom:0px;
+    height:250px;
+  }
+  
+  .gl_sec a {
+      position: relative;
+      transition: 0.3s ease-in-out;
+      -webkit-transition: 0.3s ease-in-out;
+      -moz-transition: 0.3s ease-in-out;
+      -ms-transition: 0.3s ease-in-out;
+      -o-transition: 0.3s ease-in-out;
+  }
+  
+  
+  .gl_sec a::before {
+      position: absolute;
+      content: "";
+      width: 30px;
+      height: 30px;
+      background: none;
+      background-size: contain;
+      background-repeat: no-repeat;
+    top:45%;
+    left:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  .gl_sec img {
+      transition: 0.3s ease-in-out;
+      -webkit-transition: 0.3s ease-in-out;
+      -moz-transition: 0.3s ease-in-out;
+      -ms-transition: 0.3s ease-in-out;
+      -o-transition: 0.3s ease-in-out;
+  }
+  
+  .gl_sec a:hover img {
+      position: relative;
+      width: 100%;
+  }
+  
+  .gl_sec a:hover img {
+      opacity: 0.2;
+  }
+  
+  .gl_sec a:hover::before {
+      position: absolute;
+      content: "";
+      width: 50px;
+      height: 50px;
+      background: url(https://i.ibb.co/3fMkjjF/Resize.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      z-index: 99;
+  }

@@ -1,0 +1,939 @@
+    @media(max-width:980px){
+    header{
+        width: 100%;
+        height: 100vh;
+        /* flex-direction: column; */
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: center;
+    }
+    .subheader{
+        width: 100%;
+        /* border: 1px solid red; */
+        height: 110px;
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+        height: 40px;
+        /* border: 1px solid red; */
+    }
+    nav{
+        width: 100%;
+        height: 30px;
+    }
+    .bt1{
+        display: none;
+    }
+    nav ul li a{
+        font-size: 13px;
+    }
+    .textbox{
+        width: 80%;
+        height: auto;
+        /* border: 1px solid red; */
+        margin-top: 5%;
+        margin-left: -5%;
+    }
+    .pp1{
+        font-size: 37px;
+    }
+    .pp2{
+        font-size: 20px;
+    }
+   
+    .mobile{
+        animation: none;
+        width: 80%;
+        background-size: 350px;
+        margin-left: -1%;
+        margin-top: 30%;
+    }
+    .div2{
+        /* border: 1px solid red; */
+        height: 110vh;
+    }
+    .dvi2{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid yellow; */
+    }
+    .dv21{
+        width: 100%;
+        height: 65px;
+        /* border: 1px solid red; */
+        margin-top: -40%;
+    }
+    .dv22{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-evenly;
+        margin-top: 5%;
+
+    }
+    .dd21{
+        width: 90%;
+        margin-top: 5%;
+    }
+    .dv32{
+        display: none;
+    }
+    .div3{
+        /* border: 1px solid red; */
+        height: 200px;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .dvi3{
+        width: 100%;
+        height: auto;
+        /* display: none; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dv31{
+        /* text-align: center; */
+        /* border: 1px solid red; */
+        height: auto;
+    
+        width: 95%;
+    }
+    .div4{
+        width: 100%;
+        height: 125vh;
+        margin-top: 30%;
+    }
+    .dvi4{
+        width: 100%;
+        /* height: auto; */
+    }
+    .dv41{
+        width: 100%;
+        height: auto;
+    }
+    .dvv42{
+        width: 100%;
+        /* height: 100%; */
+        flex-wrap: wrap;
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .dv4a{
+        width: 22%;
+    }
+    .vd4{
+        font-size: 13px;
+    }
+    .dvv43{
+        /* width: 90%; */
+        display: none;
+    }
+    .dvv44{
+        width: 90%;
+        /* text-align: center; */
+        margin-left: -30%;
+    }
+    .pp12{
+        font-size: 15px;
+    }
+    .div5{
+        width: 100%;
+        height: 110vh;
+        /* border: 1px solid red; */
+        margin-top: 10%;
+
+    }
+    .dvi5{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-content: space-evenly; */
+    }
+    .dv51{
+        width:100%;
+        background-size: 200px;
+        height: 305px;
+        /* border: 1px solid red; */
+        background-position: center;
+
+    }
+
+    .dv52{
+        width: 90%;
+        height: auto;
+        
+    }
+    .div6{
+        width: 100%;
+        height: 125vh;
+        /* border: 1px solid red; */
+    }
+    .dvi6{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .dv61{
+        width: 95%;
+    }
+    .dv62{
+        width: 100%;
+        background-size: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .dd61{
+        width: 100%;
+        /* border: 1px solid red; */
+        /* height: auto; */
+        margin-left: 5%;
+    }
+    .d61{
+        /* margin-left: 5%; */
+    }
+    .pp15{
+        font-size: 24px;
+        margin-left: 15%;
+    }
+    .pp16{
+        font-size: 14px;
+        margin-left: 15%;
+    }
+    .div7{
+        width: 100%;
+        height: 380vh;
+        /* border: 1px solid red; */
+        margin-top: 20%;
+    }
+    .dvi7{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid blue ; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-between;
+        position: relative;
+    } 
+    .dv71{
+        width: 100%;
+        /* height: auto; */
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 3%;
+    }
+    .dv7a{
+        width: 100%;
+        display: flex;
+        margin-top: 10%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-evenly;
+    }
+    .d71, .d72, .d73{
+        width: 60%;
+        /* height: 600px; */
+        margin-top: 5%;
+        background-size: 350px;
+    }
+    .div8{
+        width: 100%;
+        height: 300vh;
+        /* border: 1px solid red; */
+        margin-top: 15%;
+    }
+    .dvi8{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid blue; */
+        /* flex-direction: column; */
+    }
+    .dv8a{
+        width: 100%;
+    }
+    .dv8b{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        
+        /* align-content: space-e; */
+        justify-content: center;
+    }
+    .d81{
+        width: 60%;
+        margin-top: 10%;
+    }
+    .d82{
+        width: 60%;
+        margin-top: 10%;
+    }
+    .div9{
+        width: 100%;
+        height: 100vh;
+        /* border: 1px solid red; */
+    }
+    .dvi9{
+            width: 100%;
+            height: auto;
+
+    }
+    .div10{
+        width: 100%;
+        height: 300px;
+        /* border: 1px solid red; */
+    }
+    .dvi10{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .dv101{
+        width: 90%;
+        height: auto;
+    }
+    .dv102{
+        width: 100%;
+        height: auto;
+        margin-top: 4%;
+    }
+    .creat{
+        width: 100%;
+    }
+}
+@media(max-width: 720px){
+    header{
+        width: 100%;
+        height: 100vh;
+        /* flex-direction: column; */
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: center;
+    }
+    .subheader{
+        width: 100%;
+        /* border: 1px solid red; */
+        height: 110px;
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+        height: 40px;
+        /* border: 1px solid red; */
+    }
+    nav{
+        width: 100%;
+        height: 30px;
+    }
+    .bt1{
+        display: none;
+    }
+    nav ul li a{
+        font-size: 13px;
+    }
+    .textbox{
+        width: 80%;
+        height: auto;
+        /* border: 1px solid red; */
+        margin-top: 5%;
+        margin-left: -5%;
+    }
+    .pp1{
+        font-size: 37px;
+    }
+    .pp2{
+        font-size: 20px;
+    }
+   
+    .mobile{
+        animation: none;
+        width: 80%;
+        background-size: 350px;
+        margin-left: -10%;
+        margin-top: 45%;
+    }
+    .div2{
+        /* border: 1px solid red; */
+        height: 110vh;
+    }
+    .dvi2{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid yellow; */
+    }
+    .dv21{
+        width: 100%;
+        height: 65px;
+        /* border: 1px solid red; */
+        margin-top: -55%;
+    }
+    .dv22{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-evenly;
+        margin-top: 5%;
+
+    }
+    .dd21{
+        width: 90%;
+        margin-top: 5%;
+    }
+    .dv32{
+        display: none;
+    }
+    .div3{
+        /* border: 1px solid red; */
+        height: 200px;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .dvi3{
+        width: 100%;
+        height: auto;
+        /* display: none; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dv31{
+        /* text-align: center; */
+        /* border: 1px solid red; */
+        height: auto;
+    
+        width: 95%;
+    }
+    .div4{
+        width: 100%;
+        height: 125vh;
+        margin-top: 80%;
+    }
+    .dvi4{
+        width: 100%;
+        /* height: auto; */
+    }
+    .dv41{
+        width: 100%;
+        height: auto;
+    }
+    .dvv42{
+        width: 100%;
+        /* height: 100%; */
+        flex-wrap: wrap;
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .dv4a{
+        width: 22%;
+    }
+    .vd4{
+        font-size: 13px;
+    }
+    .dvv43{
+        /* width: 90%; */
+        display: none;
+    }
+    .dvv44{
+        width: 90%;
+        /* text-align: center; */
+        margin-left: -30%;
+    }
+    .pp12{
+        font-size: 15px;
+    }
+    .div5{
+        width: 100%;
+        height: 110vh;
+        /* border: 1px solid red; */
+        margin-top: 10%;
+
+    }
+    .dvi5{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-content: space-evenly; */
+    }
+    .dv51{
+        width:100%;
+        background-size: 200px;
+        height: 305px;
+        /* border: 1px solid red; */
+        background-position: center;
+
+    }
+
+    .dv52{
+        width: 90%;
+        height: auto;
+        
+    }
+    .div6{
+        width: 100%;
+        height: 125vh;
+        /* border: 1px solid red; */
+    }
+    .dvi6{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .dv61{
+        width: 95%;
+    }
+    .dv62{
+        width: 100%;
+        background-size: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .dd61{
+        width: 100%;
+        /* border: 1px solid red; */
+        /* height: auto; */
+        margin-left: 5%;
+    }
+    .d61{
+        /* margin-left: 5%; */
+    }
+    .pp15{
+        font-size: 24px;
+        margin-left: 15%;
+    }
+    .pp16{
+        font-size: 14px;
+        margin-left: 15%;
+    }
+    .div7{
+        width: 100%;
+        height: 380vh;
+        /* border: 1px solid red; */
+        margin-top: 20%;
+    }
+    .dvi7{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid blue ; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-between;
+        position: relative;
+    } 
+    .dv71{
+        width: 100%;
+        /* height: auto; */
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 3%;
+    }
+    .dv7a{
+        width: 100%;
+        display: flex;
+        margin-top: 10%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-evenly;
+    }
+    .d71, .d72, .d73{
+        width: 65%;
+        margin-top: 10%;
+        background-size: cover;
+    }
+    .div8{
+        width: 100%;
+        height: 300vh;
+        /* border: 1px solid red; */
+        margin-top: 15%;
+    }
+    .dvi8{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid blue; */
+        /* flex-direction: column; */
+    }
+    .dv8a{
+        width: 100%;
+    }
+    .dv8b{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        
+        /* align-content: space-e; */
+        justify-content: center;
+    }
+    .d81{
+        width: 70%;
+        margin-top: 10%;
+    }
+    .d82{
+        width: 70%;
+        margin-top: 10%;
+    }
+    .div9{
+        width: 100%;
+        height: 100vh;
+        /* border: 1px solid red; */
+    }
+    .dvi9{
+            width: 100%;
+            height: auto;
+
+    }
+    .div10{
+        width: 100%;
+        height: 300px;
+        /* border: 1px solid red; */
+    }
+    .dvi10{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .dv101{
+        width: 90%;
+        height: auto;
+    }
+    .dv102{
+        width: 100%;
+        height: auto;
+        margin-top: 8%;
+    }
+    .creat{
+        width: 100%;
+    }
+}
+@media(max-width:480px){
+    header{
+        width: 100%;
+        height: 100vh;
+        /* flex-direction: column; */
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: center;
+    }
+    .subheader{
+        width: 100%;
+        /* border: 1px solid red; */
+        height: 110px;
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+        height: 40px;
+        /* border: 1px solid red; */
+    }
+    nav{
+        width: 100%;
+        height: 30px;
+    }
+    .bt1{
+        display: none;
+    }
+    nav ul li a{
+        font-size: 13px;
+    }
+    .textbox{
+        width: 80%;
+        height: auto;
+        /* border: 1px solid red; */
+        margin-top: 5%;
+        margin-left: -5%;
+    }
+    .pp1{
+        font-size: 37px;
+    }
+    .pp2{
+        font-size: 20px;
+    }
+    .mobile{
+        animation: none;
+        width: 80%;
+        background-size: 200px;
+        margin-left: -5%;
+        margin-top: 80%;
+    }
+    .div2{
+        /* border: 1px solid red; */
+        height: 110vh;
+    }
+    .dvi2{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid yellow; */
+    }
+    .dv21{
+        width: 100%;
+        height: 65px;
+        /* border: 1px solid red; */
+        margin-top: -85%;
+    }
+    .dv22{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-evenly;
+        margin-top: 5%;
+
+    }
+    .dd21{
+        width: 90%;
+        margin-top: 5%;
+    }
+    .dv32{
+        display: none;
+    }
+    .div3{
+        /* border: 1px solid red; */
+        height: 200px;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .dvi3{
+        width: 100%;
+        height: auto;
+        /* display: none; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dv31{
+        /* text-align: center; */
+        /* border: 1px solid red; */
+        height: auto;
+    
+        width: 95%;
+    }
+    .div4{
+        width: 100%;
+        height: 125vh;
+        margin-top: 80%;
+    }
+    .dvi4{
+        width: 100%;
+        /* height: auto; */
+    }
+    .dv41{
+        width: 100%;
+        height: auto;
+    }
+    .dvv42{
+        width: 100%;
+        /* height: 100%; */
+        flex-wrap: wrap;
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .dv4a{
+        width: 22%;
+    }
+    .vd4{
+        font-size: 13px;
+    }
+    .dvv43{
+        /* width: 90%; */
+        display: none;
+    }
+    .dvv44{
+        width: 90%;
+        /* text-align: center; */
+        margin-left: -30%;
+    }
+    .pp12{
+        font-size: 15px;
+    }
+    .div5{
+        width: 100%;
+        height: 110vh;
+        /* border: 1px solid red; */
+        margin-top: 10%;
+
+    }
+    .dvi5{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-content: space-evenly; */
+    }
+    .dv51{
+        width:100%;
+        background-size: 200px;
+        height: 305px;
+        /* border: 1px solid red; */
+        background-position: center;
+
+    }
+
+    .dv52{
+        width: 90%;
+        height: auto;
+        
+    }
+    .div6{
+        width: 100%;
+        height: 125vh;
+        /* border: 1px solid red; */
+    }
+    .dvi6{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .dv61{
+        width: 95%;
+    }
+    .dv62{
+        width: 100%;
+        background-size: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .dd61{
+        width: 100%;
+        /* border: 1px solid red; */
+        /* height: auto; */
+        margin-left: 5%;
+    }
+    .d61{
+        /* margin-left: 5%; */
+    }
+    .pp15{
+        font-size: 24px;
+        margin-left: 15%;
+    }
+    .pp16{
+        font-size: 14px;
+        margin-left: 15%;
+    }
+    .div7{
+        width: 100%;
+        height: 380vh;
+        /* border: 1px solid red; */
+        margin-top: 20%;
+    }
+    .dvi7{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid blue ; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-between;
+        position: relative;
+    } 
+    .dv71{
+        width: 100%;
+        /* height: auto; */
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 3%;
+    }
+    .dv7a{
+        width: 100%;
+        display: flex;
+        margin-top: 10%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-evenly;
+    }
+    .d71, .d72, .d73{
+        width: 65%;
+        margin-top: 10%;
+        background-size: cover;
+    }
+    .div8{
+        width: 100%;
+        height: 300vh;
+        /* border: 1px solid red; */
+        margin-top: 15%;
+    }
+    .dvi8{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid blue; */
+        /* flex-direction: column; */
+    }
+    .dv8a{
+        width: 100%;
+    }
+    .dv8b{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        
+        /* align-content: space-e; */
+        justify-content: center;
+    }
+    .d81{
+        width: 90%;
+        margin-top: 10%;
+    }
+    .d82{
+        width: 90%;
+        margin-top: 10%;
+    }
+    .div9{
+        width: 100%;
+        height: 100vh;
+        /* border: 1px solid red; */
+    }
+    .dvi9{
+            width: 100%;
+            height: auto;
+
+    }
+    .div10{
+        width: 100%;
+        height: 300px;
+        /* border: 1px solid red; */
+    }
+    .dvi10{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .dv101{
+        width: 90%;
+        height: auto;
+    }
+    .dv102{
+        width: 100%;
+        height: auto;
+        margin-top: 8%;
+    }
+    .creat{
+        width: 100%;
+    }
+}

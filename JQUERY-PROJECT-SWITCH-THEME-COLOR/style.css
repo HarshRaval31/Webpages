@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://wallpapers.com/images/hd/game-room-pictures-1920-x-1080-24896wsk7octvgs0.jpg);
+    /* background-image: url(https://wallpapers.com/images/hd/gaming-banner-background-5h2gtvumjcf0tnxs.jpg); */
+    /* background-image: url(https://modyolo.com/wp-content/uploads/2021/11/battle-disc-1.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    flex-wrap: wrap;
+    /* background-color: gray; */
+}
+h1{
+    position: absolute;
+    top: 2%;
+    text-shadow: 1px 2px 10px violet;
+}
+/* #gmname{
+    width: 100%;
+    height: auto;
+} */
+h4{
+    cursor: pointer;
+}
+.parent{
+    width: 50%;
+    height: 450px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px 3px white;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.616);
+    margin-bottom: 8%;
+}
+.a1{
+    width: 30px;
+    height: 200px;
+    /* border: 1px solid black; */
+    /* background-color: black; */
+    border-radius: 20px;
+    position: absolute;
+    left: 5%;
+    top: 7%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    align-content: space-evenly;
+    background-color: gold;
+    box-shadow: 1px 1px 15px 5px dimgray;
+    /* color: white; */
+    animation: slide1;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes slide1{
+    0%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(170px);
+    }
+}
+
+
+.c1{
+    width: 30px;
+    height: 200px;
+    /* border: 1px solid black; */
+    /* background-color: black; */
+    border-radius: 20px;
+    position: absolute;
+    right: 5%;
+    bottom: 15%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    background-color: gold;
+    animation: slide2;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    box-shadow: 1px 1px 15px 5px dimgray;
+
+
+}
+@keyframes slide2{
+    0%{
+        transform: translateY(20px);
+    }
+   
+    100%{
+       transform: translateY(-170px);
+    }
+}
+
+
+#b1{
+    width: 55px;
+    height: 55px;
+    /* border: 3px solid red; */
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    /* background-color: red; */
+    /* background: radial-gradient(red,white,black); */
+    /* box-shadow: 1px 1px 5px 1px black; */
+    border-radius: 50px;
+    position: absolute;
+    left: 8%;
+    top: 40%;
+    animation: ball;
+    animation-duration: 1.2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    color: white;
+}
+@keyframes ball{
+    0%{
+        transform: translateX(568px)translateY(150px) rotate(360deg);
+       
+    }
+   
+   
+     
+}
+
+#info{
+    position: absolute;
+    bottom: 1%;
+}
+
+#balls{
+    position: absolute;
+    bottom: 3.5%;
+    background-color: rgba(0, 0, 0, 0.742);
+    background-blend-mode: overlay;
+    box-shadow: 2px 2px 15px 1px white ;
+    
+}
+.p1{
+    background-color: red;
+}
+
+
+#ball1{
+    cursor: pointer;
+    color: red;
+    /* text-shadow: 2px 2px 5px red; */
+}
+#ball2{
+   
+    cursor: pointer;
+    color: blueviolet;
+   }
+   #ball3{
+    cursor: pointer;
+ /* background-color: rgba(0, 255, 0, 0.51);  */
+    color: skyblue;
+   }
+   #ball4{
+    cursor: pointer;
+    /* background-color: rgba(0, 255, 0, 0.51);  */
+    color: magenta;
+   }
+
+
+
+   .bb1{
+    background-color: rgba(255, 0, 0, 0.222);
+   
+    background-blend-mode: overlay;
+    
+   }
+   .bb2{
+    background-blend-mode: overlay;
+    /* background-color: rgba(0, 0, 255, 0.238); */
+    background-color: rgba(137, 43, 226, 0.505);
+   }
+
+   .bb3{
+    background-blend-mode: overlay;
+    background-color: rgba(101, 192, 228, 0.404);
+   }
+
+   .bb4{
+    background-blend-mode: overlay;
+    background-color: rgba(255, 0, 255, 0.325);
+    
+   }
+
+  

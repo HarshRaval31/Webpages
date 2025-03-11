@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sora", "sans-serif";
+
+}
+
+.headrow{
+    background-color: #B18B5E;
+    height: auto;
+    width: 100%;
+}
+#icon {
+    position: relative;
+}
+#login{
+    background-color: #B18B5E !important;
+}
+#icon::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color:#B18B5E;
+    transition: 0.5s;
+    border-radius: 50px;
+
+}
+
+#icon:hover::before {
+    width: 100%;
+}
+#srch{
+    border-radius: 7px 0px 0px 7px;
+    padding-left: 10px;
+    height: 45px;
+    margin-left: 50px;
+}
+#srchicon{
+    color: #B18B5E;
+    /* border: px; */
+}
+#hhd{
+    z-index: 1;
+    box-shadow: 2px 2px 2px 2px rgb(121, 121, 121);
+}
+
+.section_1{
+    width: 100%;
+    height: 315px;
+    /* border: 1px solid red; */
+    background-image: url(/images/breadcrumb-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #585858;
+  }
+
+/* .sec-2 */
+
+.section_2{
+    width: 100%;
+    height: auto;
+}
+
+#blogcard1{
+    background-color: #F5F1E6;
+}
+
+#blogbtn{
+    position: relative;
+    z-index: 1;
+    color: dimgray;
+}
+#blogbtn::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    transition: 0.4s;
+    background-color: #B18B5E;
+    /* background-color: white; */
+    border-radius: 6px;
+}
+
+#blogbtn:hover::before{
+    width: 100%;
+    z-index: -1;
+}
+#blogbtn:hover{
+    color: white;
+    box-shadow: 2px 2px 7px 2px #585858;
+    border: none;
+}
+
+#panbg{
+    background-color: #B18B5E;
+    color: white;
+    border: none;
+}
+
+/* .footer */
+
+#footerbg{
+    background-color: #191919;
+  }
+  #fa{
+    transition: 0.5s;
+  }
+  #fa:hover{
+    transform: translateX(15px);
+    color: blue;
+    text-decoration: underline;
+  }
+#fficon1{
+    padding: 10px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#scrolltop {
+    position: fixed;
+    width: 50px;
+    right: 10px;
+    bottom: 10px;
+    background-color: #c08b5c;
+}
