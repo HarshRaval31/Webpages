@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            border: 1px solid black;
+            background-image: url(image/i1.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: overlay;
+            opacity: 3;
+            background-color: rgb(91, 86, 86);
+        }
+
+        .sub {
+            width: 100%;
+            height: 50px;
+            /* border: 1px solid black; */
+            margin-top: 30px;
+            color: white;
+        }
+
+        .logo {
+            width: 10%;
+            height: 100%;
+            /* border: 1px solid black; */
+            font-family: Rubik, Arial, sans-serif;
+            font-size: 25px;
+            line-height: 50px;
+            padding-left: 15px;
+            float: left;
+            margin-left: 100px;
+        }
+
+        .sub nav {
+            width: 70%;
+            height: 100%;
+            /* border: 1px solid black; */
+            float: left;
+            margin-left: 140px;
+        }
+
+        .sub nav ul li {
+            list-style: none;
+            float: left;
+            padding-left: 50px;
+            line-height: 50px;
+            font-family: Rubik, Arial, sans-serif;
+            color: white;
+        }
+
+        .a {
+            width: 150px;
+            height: 45px;
+            border-radius: 5px;
+            /* border: 1px solid black; */
+            float: left;
+            margin-left: 15px;
+            margin-top: 2px;
+            padding-top: 12px;
+            padding-left: 15px;
+            background-color: #2e9e5b;
+            color: white;
+            font-family: Rubik, Arial, sans-serif;
+        }
+
+        .a:hover {
+            background-color: black;
+            color: #2e9e5b;
+        }
+
+        #S1 {
+            color: #2e9e5b;
+        }
+
+        #B {
+            width: 160px;
+            height: 50px;
+            background: transparent;
+            border: 1px solid #FFFFFF;
+            margin-left: 80px;
+            margin-top: 120px;
+            font-family: Rubik, Arial, sans-serif;
+        }
+
+        #B:hover {
+            background-color: black;
+            color: #2e9e5b;
+            border: none;
+        }
+
+        #H {
+            margin-left: 80px;
+            font-size: 50px;
+            padding-top: 20px;
+            color: white;
+            font-family: Rubik, Arial, sans-serif;
+        }
+
+        #P {
+            margin-left: 80px;
+            font-size: 20px;
+            padding-top: 20px;
+            color: white;
+            font-family: Rubik, Arial, sans-serif;
+        }
+
+        .a4 {
+            width: 30%;
+            height: 420px;
+            /* border: 1px solid black; */
+            margin-top: -90px;
+            background-image: url(image/i2.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .a4:hover {
+            box-shadow: 5px 5px 5px #888;
+        }
+
+        .a1 {
+            width: 30%;
+            height: 420px;
+            /* border: 1px solid black; */
+            margin-top: -90px;
+            background-image: url(image/i3.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .a1:hover {
+            box-shadow: 5px 5px 5px #888;
+        }
+
+        .a2 {
+            width: 30%;
+            height: 420px;
+            /* border: 1px solid black; */
+            margin-top: -90px;
+            background-image: url(image/i4.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .a2:hover {
+            box-shadow: 5px 5px 5px #888;
+        }
+
+        .a3 {
+            width: 100%;
+            height: 480px;
+            /* border: 1px solid black; */
+            background-color: whitesmoke;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            /* margin-left: 75px; */
+        }
+
+        .b {
+            width: 100%;
+            height: 511px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-wrap: wrap;
+            /* margin-top: 10px; */
+        }
+
+        .b1 {
+            width: 26%;
+            height: 510px;
+            /* border: 1px solid black; */
+            margin-left: 80px;
+            background-image: url(image/i5.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: overlay;
+            background-color: rgb(78, 76, 76);
+        }
+
+        #P1 {
+            font-family: Rubik, Arial, sans-serif;
+            color: rgba(255, 255, 255, 0.9);
+            padding-left: 30px;
+            padding-top: 10px;
+        }
+
+        #H1 {
+            font-family: Rubik, Arial, sans-serif;
+            color: white;
+            padding-left: 30px;
+            padding-top: 10px;
+        }
+
+        .bb6 {
+            width: 87%;
+            height: 70px;
+            border: 1px solid white;
+            color: rgba(255, 255, 255, 0.9);
+            margin-left: 28px;
+            padding-top: 25px;
+            font-size: 15px;
+            font-family: Rubik, Arial, sans-serif;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+
+        .bb3 {
+            width: 87%;
+            height: 70px;
+            border: 1px solid white;
+            color: rgba(255, 255, 255, 0.9);
+            margin-left: 28px;
+            padding-top: 25px;
+            font-size: 15px;
+            font-family: Rubik, Arial, sans-serif;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+
+        }
+
+        .bb4 {
+            width: 87%;
+            height: 70px;
+            border: 1px solid white;
+            color: rgba(255, 255, 255, 0.9);
+            margin-left: 28px;
+            padding-top: 25px;
+            font-size: 15px;
+            font-family: Rubik, Arial, sans-serif;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+
+        }
+
+        .bb5 {
+            width: 87%;
+            height: 70px;
+            border: 1px solid white;
+            color: rgba(255, 255, 255, 0.9);
+            margin-left: 28px;
+            padding-top: 25px;
+            font-size: 15px;
+            font-family: Rubik, Arial, sans-serif;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+
+        }
+
+        .b2 {
+            width: 60%;
+            height: 510px;
+            /* border: 1px solid black; */
+            margin-left: 40px;
+        }
+
+        #Text {
+            margin-left: 26px;
+            padding-top: 30px;
+            color: rgba(255, 255, 255, 0.9);
+            background: none;
+            font-family: Rubik, Arial, sans-serif;
+            font-size: 15px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+
+        #B1 {
+            width: 170px;
+            height: 50px;
+            font-family: Rubik, Arial, sans-serif;
+            background-color: #fdb82c;
+            margin-left: 80px;
+            margin-top: 20px;
+        }
+
+        #B1:hover {
+            background: none;
+            color: #fdb82c;
+            border-color: #fdb82c;
+        }
+
+        #PP1 {
+            color: #2e9e5b;
+            font-family: Rubik, Arial, sans-serif;
+            letter-spacing: 2px;
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+
+        #H2 {
+            padding-left: 17px;
+            padding-top: 20px;
+            font-family: Rubik, Arial, sans-serif;
+        }
+
+        #P2 {
+            font-family: Rubik, Arial, sans-serif;
+            padding-top: 30px;
+            padding-left: 20px;
+            line-height: 25px;
+            color: gray;
+        }
+
+        #P3 {
+            font-family: Rubik, Arial, sans-serif;
+            padding-top: 30px;
+            padding-left: 20px;
+            line-height: 25px;
+            color: gray;
+        }
+
+        #P4 {
+            font-family: Rubik, Arial, sans-serif;
+            padding-top: 30px;
+            padding-left: 20px;
+            line-height: 25px;
+            color: gray;
+        }
+
+        .bbb1 {
+            width: 18%;
+            height: 120px;
+            border: 1px solid gray;
+            text-align: center;
+            padding-top: 32px;
+            float: left;
+            margin-left: 60px;
+            margin-top: 15px;
+            border-radius: 7px;
+            transition: 1s;
+        }
+
+        .bbb1:hover {
+            background-color: #fdb82c;
+            color: rgba(5, 5, 5, 5.2);
+            transform: rotate(360deg);
+        }
+
+        .bbb1:hover #S2 {
+            color: black;
+        }
+
+        #P5 {
+            font-family: 'Rubik', sans-serif;
+            color: rgba(0, 0, 0, 0.2);
+            line-height: 25px;
+        }
+
+        .bbb2 {
+            width: 18%;
+            height: 120px;
+            border: 1px solid gray;
+            text-align: center;
+            padding-top: 30px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 15px;
+            border-radius: 7px;
+            transition: 1s;
+        }
+
+        .bbb2:hover {
+            background-color: #fdb82c;
+            color: rgba(5, 5, 5, 5.2);
+            transform: rotate(360deg);
+        }
+
+        .bbb2:hover #S2 {
+            color: black;
+        }
+
+        #P6 {
+            font-family: 'Rubik', sans-serif;
+            color: rgba(0, 0, 0, 0.2);
+            line-height: 25px;
+        }
+
+        .bbb3 {
+            width: 18%;
+            height: 120px;
+            border: 1px solid gray;
+            text-align: center;
+            padding-top: 30px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 15px;
+            border-radius: 7px;
+            transition: 1s;
+        }
+
+        .bbb3:hover {
+            background-color: #fdb82c;
+            color: rgba(5, 5, 5, 5.2);
+            transform: rotate(360deg);
+        }
+
+        .bbb3:hover #S2 {
+            color: black;
+        }
+
+        #P7 {
+            font-family: 'Rubik', sans-serif;
+            color: rgba(0, 0, 0, 0.2);
+            line-height: 25px;
+        }
+
+        .bbb4 {
+            width: 18%;
+            height: 120px;
+            border: 1px solid gray;
+            text-align: center;
+            padding-top: 30px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 15px;
+            border-radius: 7px;
+            transition: 1s;
+        }
+
+        .bbb4:hover {
+            background-color: #fdb82c;
+            color: rgba(5, 5, 5, 5.2);
+            transform: rotate(360deg);
+        }
+
+        .bbb4:hover #S2 {
+            color: black;
+        }
+
+        #P8 {
+            font-family: 'Rubik', sans-serif;
+            color: rgba(0, 0, 0, 0.2);
+            line-height: 25px;
+        }
+
+        #S2 {
+            color: #2e9e5b;
+            font-size: 25px;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .c {
+            width: 100%;
+            height: 300px;
+            /* border: 1px solid black; */
+            background-color: whitesmoke;
+            text-align: center;
+        }
+
+        #P9 {
+            color: #2e9e5b;
+            letter-spacing: 2px;
+            font-family: 'Rubik', sans-serif;
+            padding-top: 80px;
+        }
+
+        #H3 {
+            font-family: 'Rubik', sans-serif;
+            padding-top: 25px;
+            font-size: 42px;
+        }
+
+        #P10 {
+            font-family: 'Rubik', sans-serif;
+            padding-top: 50px;
+            color: gray;
+        }
+
+        .d {
+            width: 100%;
+            height: 600px;
+            /* border: 1px solid black; */
+            background-color: whitesmoke;
+        }
+
+        .d1 {
+            width: 100%;
+            height: 450px;
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+        }
+
+        .dd1 {
+            width: 23%;
+            height: 400px;
+            /* border: 1px solid black; */
+        }
+
+        #I1 {
+            width: 100%;
+            height: 80%;
+        }
+
+        .ddd1 {
+            width: 100%;
+            height: 80px;
+            /* border: 1px solid black; */
+        }
+
+        #H4 {
+            font-size: 20px;
+            font-family: 'Rubik', sans-serif;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        #P11 {
+            font-family: 'Rubik', sans-serif;
+            color: #888;
+            text-align: center;
+        }
+
+        .dd2 {
+            width: 23%;
+            height: 400px;
+            /* border: 1px solid black; */
+        }
+
+        .ddd2 {
+            width: 100%;
+            height: 80px;
+            /* border: 1px solid black; */
+        }
+
+        .dd3 {
+            width: 23%;
+            height: 400px;
+            /* border: 1px solid black; */
+        }
+
+        .ddd3 {
+            width: 100%;
+            height: 80px;
+            /* border: 1px solid black; */
+
+        }
+
+        .dd4 {
+            width: 23%;
+            height: 400px;
+            /* border: 1px solid black; */
+        }
+
+        .ddd4 {
+            width: 100%;
+            height: 80px;
+            /* border: 1px solid black; */
+        }
+
+        .e {
+            width: 100%;
+            height: 400px;
+            /* border: 1px solid black; */
+            text-align: center;
+        }
+
+        #H5 {
+            font-family: 'Rubik', sans-serif;
+            padding-top: 30px;
+        }
+
+        #P12 {
+            font-family: 'Rubik', sans-serif;
+            color: #2e9e5b;
+            letter-spacing: 2px;
+            padding-top: 100px;
+        }
+
+        #P13 {
+            font-family: 'Rubik', sans-serif;
+            color: #888;
+            padding-top: 40px;
+        }
+
+        .f {
+            width: 100%;
+            height: 400px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .f1 {
+            width: 25%;
+            height: 100%;
+            /* border: 1px solid black; */
+            background-image: url(image/i11.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .f2 {
+            width: 25%;
+            height: 100%;
+            /* border: 1px solid black; */
+            background-image: url(image/i12.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .f2:hover {
+            background-image: none;
+        }
+
+        .f2:hover #P14 {
+            display: block;
+        }
+
+        .f2:hover #H6 {
+            display: block;
+        }
+
+        .f2:hover #P15 {
+            display: block;
+        }
+
+        .f2:hover #icon2 {
+            display: block;
+        }
+
+        .f2:hover #icon3 {
+            display: block;
+        }
+
+        .f2:hover #icon4 {
+            display: block;
+        }
+
+        .f2:hover #icon5 {
+            display: block;
+        }
+
+        .f3 {
+            width: 25%;
+            height: 100%;
+            /* border: 1px solid black; */
+            background-image: url(image/i13.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .f3:hover {
+            background-image: none;
+        }
+
+        .f3:hover #P14 {
+            display: block;
+        }
+
+        .f3:hover #H6 {
+            display: block;
+        }
+
+        .f3:hover #P15 {
+            display: block;
+        }
+
+        .f3:hover #icon2 {
+            display: block;
+        }
+
+        .f3:hover #icon3 {
+            display: block;
+        }
+
+        .f3:hover #icon4 {
+            display: block;
+        }
+
+        .f3:hover #icon5 {
+            display: block;
+        }
+
+        .f4 {
+            width: 25%;
+            height: 100%;
+            /* border: 1px solid black; */
+            background-image: url(image/i10.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .f4:hover {
+            background-image: none;
+        }
+
+        .f4:hover #P14 {
+            display: block;
+        }
+
+        .f4:hover #H6 {
+            display: block;
+        }
+
+        .f4:hover #P15 {
+            display: block;
+        }
+
+        .f4:hover #icon2 {
+            display: block;
+        }
+
+        .f4:hover #icon3 {
+            display: block;
+        }
+
+        .f4:hover #icon4 {
+            display: block;
+        }
+
+        .f1:hover #icon5 {
+            display: block;
+        }
+
+        #P14 {
+            color: #2e9e5b;
+            font-family: 'Rubik', sans-serif;
+            padding-top: 120px;
+            display: none;
+            transition: 5s;
+        }
+
+        #P15 {
+            font-family: 'Rubik', sans-serif;
+            padding-top: 30px;
+            line-height: 30px;
+            color: #888;
+            display: none;
+        }
+
+        #H6 {
+            font-family: 'Rubik', sans-serif;
+            padding-top: 25px;
+            font-size: 25px;
+            font-weight: 100;
+            display: none;
+        }
+
+        #icon2 {
+            display: none;
+            position: absolute;
+            top: 320px;
+            left: 100px;
+        }
+
+        #icon3 {
+            padding-left: 10px;
+            display: none;
+            position: absolute;
+            top: 320px;
+            left: 120px;
+        }
+
+        #icon4 {
+            padding-left: 10px;
+            display: none;
+            position: absolute;
+            top: 320px;
+            left: 150px;
+        }
+
+        #icon5 {
+            padding-left: 10px;
+            display: none;
+            position: absolute;
+            top: 320px;
+            left: 180px;
+        }
+
+        .f1:hover {
+            background-image: none;
+        }
+
+        .f1:hover #P14 {
+            display: block;
+        }
+
+        .f1:hover #H6 {
+            display: block;
+        }
+
+        .f1:hover #P15 {
+            display: block;
+        }
+
+        .f1:hover #icon2 {
+            display: block;
+        }
+
+        .f1:hover #icon3 {
+            display: block;
+        }
+
+        .f1:hover #icon4 {
+            display: block;
+        }
+
+        .f1:hover #icon5 {
+            display: block;
+        }
+        .g{
+            width: 100%;
+            height: 652px;
+            border: 1px solid black;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .g1{
+            width: 35%;
+            height: 550px;
+            border: 1px solid black;
+            background-image: url(image/i14.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 100px;
+        }
+        .g2{
+            width: 50%;
+            height: 400px;
+            /* border: 1px solid black; */
+            margin-top: 180px;
+            margin-left: 80px;
+            position: relative;
+        }
+        #icon6{
+            font-size: 55px;
+            color: #b9b7b7;
+        }
+        #P16{
+            font-family: 'Rubik', sans-serif;
+            color: #888;
+            font-size: 20px;
+            line-height: 35px;
+        }
+        #H7{
+            font-family: 'Rubik', sans-serif;
+            color: #2e9e5b;
+            font-size: 20px;
+            padding-top: 40px;
+        }
+        #P17{
+            font-family: 'Rubik', sans-serif;
+            padding-top: 10px;
+        }
+        #icon7{
+            position: absolute;
+            top: 180px;
+            left: 540px;
+           font-size: 80px;
+           color: #2e9e5b;
+        }
+        #icon8{
+            position: absolute;
+            top: 0;
+        }
+
+
+
+
+
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <div class="main">
+        <div class="sub">
+            <div class="logo">SQUARE.</div>
+            <nav>
+                <ul>
+                    <li><span id="S1">HOME</span></li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Team</li>
+                    <li>Testimony</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                    <div class="a">Request a quote</div>
+                </ul>
+            </nav>
+        </div>
+        <button id="B"><i class="fa-solid fa-play" id="icon1"></i>&nbsp; WATCH VIDEO</button>
+        <h1 id="H">We have a passion in creating <br>new and unique spaces</h1>
+        <p id="P">Travel to the any corner of the world, without going around in circles</p>
+    </div>
+    <div class="a3">
+        <div class="a4"></div>
+        <div class="a1"></div>
+        <div class="a2"></div>
+    </div>
+    <div class="b">
+        <div class="b1">
+            <p id="P1">BE PART OF OUR BUSINESS</p>
+            <h1 id="H1">Request A Quote</h1>
+            <div class="bb6">First Name</div>
+            <div class="bb3">Last Name</div>
+            <div class="bb4">Select your Services</div>
+            <div class="bb5">Phone</div>
+            <textarea name="Message" id="Text" cols="33" rows="2">Massage</textarea>
+            <button id="B1">Request A Quote</button>
+        </div>
+        <div class="b2">
+            <p id="PP1">WELCOME</p>
+            <h1 id="H2">Since we started work in 1980</h1>
+            <p id="P2">A small river named Duden flows by their place and supplies it with the necessary regelialia. It
+                <br>
+                is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+            </p>
+            <p id="P3">Even the all-powerful Pointing has no control about the blind texts it is an almost <br>
+                unorthographic life One day however a small line of blind text by the name of Lorem Ipsum <br>decided to
+                leave for the far World of Grammar.</p>
+            <p id="P4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It
+                <br>
+                is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+            <div class="bbb1">
+                <p id="P5"><span id="S2">30</span> <br> YEARS OF <br> EXPERIENCE</p>
+            </div>
+            <div class="bbb2">
+                <p id="P6"><span id="S2">1,000</span> <br> PROJECTS <br> DONE</p>
+            </div>
+            <div class="bbb3">
+                <p id="P7"><span id="S2">100</span> <br> OUR <br> ARCHITECH</p>
+            </div>
+            <div class="bbb4">
+                <p id="P8"><span id="S2">1,100</span> <br> HAPPY <br> COUSTMORES</p>
+            </div>
+        </div>
+    </div>
+    <div class="c">
+        <p id="P9">ACCOMPLISHMENTS</p>
+        <h1 id="H3">Our Projects</h1>
+        <p id="P10">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+    </div>
+    <div class="d">
+        <div class="d1">
+            <div class="dd1"><img src="image/i6.jpg" alt="" id="I1">
+                <div class="ddd1">
+                    <h1 id="H4">office interior Design</h1>
+                    <p id="P11">INTERIOR DESIGN</p>
+                </div>
+            </div>
+            <div class="dd2"> <img src="image/i7.jpg" alt="" id="I1">
+                <div class="ddd2">
+                    <h1 id="H4">office interior Design</h1>
+                    <p id="P11">INTERIOR DESIGN</p>
+                </div>
+            </div>
+            <div class="dd3"> <img src="image/i8.jpg" alt="" id="I1">
+                <div class="ddd3">
+                    <h1 id="H4">office interior Design</h1>
+                    <p id="P11">INTERIOR DESIGN</p>
+                </div>
+            </div>
+            <div class="dd4"> <img src="image/i9.jpg" alt="" id="I1">
+                <div class="ddd4">
+                    <h1 id="H4">office interior Design</h1>
+                    <p id="P11">INTERIOR DESIGN</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="e">
+        <p id="P12">ARCHITECT</p>
+        <h1 id="H5">Behind those Beautiful Works</h1>
+        <p id="P13">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+    </div>
+    <div class="f">
+        <div class="f1">
+            <p id="P14">ARCHITECT</p>
+            <h1 id="H6">Lloyd Wilson</h1>
+            <p id="P15">I am an ambitious workaholic, but <br> apart from that, pretty simple person.</p> <br>
+            <i class="fa-brands fa-twitter" id="icon2"></i> <i class="fa-brands fa-facebook" id="icon3"></i>
+            <i class="fa-brands fa-google-plus-g" id="icon4"></i> <i class="fa-brands fa-instagram" id="icon5"></i>
+        </div>
+        <div class="f2">
+            <p id="P14">ARCHITECT</p>
+            <h1 id="H6">Rachel Parkh</h1>
+            <p id="P15">I am an ambitious workaholic, but <br> apart from that, pretty simple person.</p> <br>
+            <i class="fa-brands fa-twitter" id="icon2"></i> <i class="fa-brands fa-facebook" id="icon3"></i>
+            <i class="fa-brands fa-google-plus-g" id="icon4"></i> <i class="fa-brands fa-instagram" id="icon5"></i>
+        </div>
+        <div class="f3">
+            <p id="P14">ARCHITECT</p>
+            <h1 id="H6">Lan Smith</h1>
+            <p id="P15">I am an ambitious workaholic, but <br> apart from that, pretty simple person.</p> <br>
+            <i class="fa-brands fa-twitter" id="icon2"></i> <i class="fa-brands fa-facebook" id="icon3"></i>
+            <i class="fa-brands fa-google-plus-g" id="icon4"></i> <i class="fa-brands fa-instagram" id="icon5"></i>
+        </div>
+        <div class="f4">
+            <p id="P14">ARCHITECT</p>
+            <h1 id="H6">Alicia</h1>
+            <p id="P15">I am an ambitious workaholic, but <br> apart from that, pretty simple person.</p> <br>
+            <i class="fa-brands fa-twitter" id="icon2"></i> <i class="fa-brands fa-facebook" id="icon3"></i>
+            <i class="fa-brands fa-google-plus-g" id="icon4"></i> <i class="fa-brands fa-instagram" id="icon5"></i>
+        </div>
+    </div>
+    <div class="g">
+        <div class="g1"></div>
+        <div class="g2">
+            <i class="fa-solid fa-quote-left" id="icon6"></i>
+            <p id="P16">Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there
+                live the blind <br> texts. A small river named Duden flows by their place <br> and supplies it with the necessary
+                regelialia. It is  <br> paradisematic country, in which roasted parts of <br>sentences fly into your mouth.
+                <i class="fa-solid fa-square-caret-left" id="icon7"></i><i class="fa-solid fa-square-caret-right" id="icon8"></i></p>
+                <h1 id="H7">Jacob Bolton</h1>
+                <p id="P17">CEO, Founder</p>
+        </div>
+    </div>
+</body>
+
+</html>

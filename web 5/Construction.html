@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport"
+                        content="width=device-width, initial-scale=1.0">
+                <title>construction</title>
+                <style>
+                * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                }
+
+                .header {
+                        width: 100%;
+                        height: 100vh;
+                        /* border: 1px solid black; */
+                        background-image: url(image/i1.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-attachment: fixed;
+                }
+
+                .sub {
+                        width: 100%;
+                        height: 90px;
+                        border: 1px solid black;
+                        display: flex;
+                        background-color: white;
+                        position: sticky;
+                        top: 0;
+                }
+
+                .logo {
+                        width: 15%;
+                        height: 100%;
+                        /* border: 1px solid black; */
+                        background-image: url(image/logo.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        /* margin-left: 30px; */
+                        /* background-size: cover; */
+                        /* display: flex; */
+                }
+
+                .sub nav {
+                        width: 790px;
+                        height: 100%;
+                        /* border: 1px solid black; */
+                        display: flex;
+                        margin-left: 700px;
+                }
+
+                .sub nav ul li {
+                        list-style: none;
+                        margin-top: 35px;
+                }
+
+                .sub nav ul li a {
+                        text-decoration: none;
+                        color: black;
+                        padding-left: 60px;
+                        justify-content: center;
+
+                }
+                .a{
+                        width: 560px;
+                        height: 300px;
+                        /* border:1px solid white; */
+                        margin-left: 680px;
+                        margin-top: 350px; 
+                }
+                #A1{
+                        font-size: 50px;
+                        padding-left: 70px;
+                        padding-bottom: 20px;
+                        font-family: "Roboto", sans-serif;
+                }
+                .B{
+                        color: orange;
+                        font-family: "Roboto", sans-serif;
+                }
+                #B1{
+                        font-family: "Roboto", sans-serif;
+                }
+                #C1{
+                        width: 150px;
+                        height: 50px;
+                        color: orange;
+                        background-color: black;
+                        border-radius: 10px;
+                        margin-top: 50px;
+                        margin-left: 200px;
+                }
+                #C1:hover{
+                        background-color: #fab700;
+                        color: black;
+                }
+                .b{
+                        width: 420px;
+                        height: 100px;
+                        /* border: 1px solid black; */
+                        margin-left: 750px;
+                        margin-top: 100px;
+                }
+                #A2{
+                        padding-left: 60px;
+                        font-family: "Roboto", sans-serif;
+                }
+                #B2{
+                        padding-left: 20px;
+                        padding-top: 10px;
+                        font-family: "Roboto", sans-serif;
+                }
+                .c{
+                        width: 70%;
+                        height: 350px;
+                        /* border: 1px solid black; */
+                        margin-top: 40px;
+                        margin-left: 300px;
+                        display: flex;
+                        position: relative;
+                        justify-content: space-evenly;
+                        align-items: center;
+                }
+                .d{
+                        width: 300px;
+                        height: 300px;
+                        border-radius: 10px;
+                        /* border: 1px solid black; */
+                        background-image: url(image/i2.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                       
+                }
+                .e{
+                        width: 300px;
+                        height: 300px;
+                        border-radius: 10px;
+                        /* border: 1px solid black; */
+                        background-image: url(image/i3.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        
+                }
+                .f{
+                        width: 300px;
+                        height: 300px;
+                        border-radius: 10px;
+                        /* border: 1px solid black; */
+                        background-image: url(image/i4.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        
+                }
+                .d:hover{
+                        box-shadow: 0px 0px 10px 0.5px;
+                }
+                .e:hover{
+                        box-shadow: 0px 0px 10px 0.5px;
+                }
+                .f:hover{
+                        box-shadow: 0px 0px 10px 0.5px;
+                }
+                .g{
+                        width: 450px;
+                        height: 80px;
+                        /* border: 1px solid black; */
+                        margin-top: 50px;
+                        margin-left: 750px;
+                }
+                #A3{
+                        padding-left: 70px;
+                        font-family: "Roboto", sans-serif;
+                }
+                #B3{
+                        padding-left: 40px;
+                        padding-top: 10px;
+                        font-family: "Roboto", sans-serif;
+                }
+                .h{
+                        width: 100%;
+                        height: 750px;
+                        /* border: 1px solid black; */
+                        margin-top: 50px;
+                        display: flex;
+                        position: relative;
+                        justify-content: center;
+                        align-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                }
+                .i{
+                        width: 30%;
+                        height: 350px;
+                        /* border: 1px solid black; */
+                }
+                .j{
+                        width: 30%;
+                        height: 350px;
+                        /* border: 1px solid black; */
+                }
+                .k{
+                        width: 30%;
+                        height: 350px;
+                        /* border: 1px solid black; */
+                }
+                .l{
+                        width: 30%;
+                        height: 350px;
+                        /* border: 1px solid black; */
+                }
+                .m{
+                        width: 30%;
+                        height: 350px;
+                        /* border: 1px solid black; */
+                 }  
+                 .n{
+                        width: 30%;
+                        height: 350px;
+                        /* border: 1px solid black; */
+                 } 
+                 .o{
+                        background-color: #fab700;
+                        display: none;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0.8;
+                 }
+                 .i{
+                        background-image: url(image/i5.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+
+                 }
+                 .j{
+                        background-image: url(image/i6.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                 }
+                 .k{
+                        background-image: url(image/i7.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                 }
+                 .l{
+                        background-image: url(image/i8.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                 }
+                 .m{
+                        background-image: url(image/i9.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                 }
+                 .n{
+                        background-image: url(image/i10.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                 }
+                 .i:hover .o{
+                       display: block; 
+                 } 
+                 #A4{
+                        font-family: "Roboto", sans-serif;
+                        padding-top: 120px;
+                        text-align: center;
+                        font-size: 25px;
+                 }
+                 #B4{
+                        font-family: "Roboto", sans-serif;
+                        text-align: center;
+                        padding-top: 10px;
+                        font-size: 15px;
+                 } 
+                .j:hover .o{
+                        display: block;
+                }   
+                .k:hover .o{
+                        display: block;
+                }          
+                .l:hover .o{
+                        display: block;
+                }          
+                .m:hover .o{
+                        display: block;
+                }          
+                .n:hover .o{
+                        display: block;
+                }
+                .p{
+                        width: 500px;
+                        height: 100px;
+                        /* border: 1px solid black; */
+                        margin-top: 150px;
+                        margin-left: 700px;
+                }   
+                #A5{
+                        padding-top: 20px;
+                        text-align: center;
+                        font-size: 39px;
+                        font-family: "Roboto", sans-serif;
+                }    
+                #B5{
+                        padding-top: 10px;
+                        text-align: center;
+                        font-family: "Roboto", sans-serif;
+                        color: gray;
+                } 
+                .Q{
+                        width: 352px;
+                        height: 500px;
+                        /* border: 1px solid black; */
+                }  
+                .q{
+                        width: 100%;
+                        height: 600px;
+                        /* border: 1px solid black; */
+                        margin-top: 50px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        align-content: space-evenly;
+                }    
+                .q1{
+                        width: 350px;
+                        height: 400px;
+                        /* border: 1px solid black; */
+                        background-image: url(image/i11.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                } 
+                .q2{
+                        width: 350px;
+                        height: 400px;
+                        /* border: 1px solid black; */
+                        background-image: url(image/i12.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }   
+                .q3{
+                        width: 350px;
+                        height: 400px;
+                        /* border: 1px solid black; */
+                        background-image: url(image/i13.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }   
+                .q4{
+                        width: 350px;
+                        height: 400px;
+                        /* border: 1px solid black; */
+                        background-image: url(image/i14.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+                #A6{
+                        text-align: center;
+                        padding-top: 20px;
+                        font-family: "Roboto", sans-serif;
+                }    
+                #B6{
+                        text-align: center;
+                        font-size: 20px;
+                        font-family: "Roboto", sans-serif;
+                } 
+                .r{
+                        width: 100%;
+                        height: 350px;
+                        /* border: 1px solid black; */
+                        margin-top: 60px;
+                        background-image: url(image/i15.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+                .s{
+                        width: 600px;
+                        height: 100px;
+                        /* border: 1px solid black; */
+                        text-align: center;
+                        margin-left: 690px;
+                        margin-top: 150px;
+                }
+                #A7{
+                        font-family: "Roboto", sans-serif;
+                }
+                #B7{
+                        font-family: "Roboto", sans-serif;
+                        padding-top: 10px;
+                }
+                .t{
+                        width: 77%;
+                        height: 550px;
+                        /* border: 1px solid black; */
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-left: 220px;
+                        justify-content: center;
+                        justify-content: space-evenly;
+                        align-items: center;
+                }
+                .t1{
+                        width: 450px;
+                        height: 250px;
+                        /* border: 1px solid black; */
+                        border-radius: 5px;
+                        background-image: url(image/i16.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+                .t2{
+                        width: 450px;
+                        height: 250px;
+                        /* border: 1px solid black; */
+                        border-radius: 5px;
+                        background-image: url(image/i17.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+                .t3{
+                        width: 450px;
+                        height: 250px;
+                        /* border: 1px solid black; */
+                        border-radius: 5px;
+                         background-image: url(image/i18.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+                .t4{
+                        width: 450px;
+                        height: 250px;
+                        /* border: 1px solid black; */
+                        border-radius: 5px;
+                         background-image: url(image/i19.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+                .t5{
+                        width: 450px;
+                        height: 250px;
+                        /* border: 1px solid black; */
+                        border-radius: 5px;
+                        background-image: url(image/i20.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+                .t6{
+                        width: 450px;
+                        height: 250px;
+                        /* border: 1px solid black; */
+                        border-radius: 5px;
+                        background-image: url(image/i21.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+                .t1:hover{
+                        box-shadow: 0px 0px 10px 0.5px;
+                }
+                .t2:hover{
+                        box-shadow: 0px 0px 10px 0.5px;
+                }
+                .t3:hover{
+                        box-shadow: 0px 0px 10px 0.5px;
+                }
+                .t4:hover{
+                        box-shadow: 0px 0px 10px 0.5px;
+                }
+                .t5:hover{
+                        box-shadow: 0px 0px 10px 0.5px;
+                }
+                .t6:hover{
+                        box-shadow: 0px 0px 10px 0.5px;
+                }
+                .U{
+                        width: 73%;
+                        height: 290px;
+                        /* border: 1px solid black; */
+                        display: flex;
+                        justify-content: space-evenly;
+                        align-items: center;
+                }
+                .u{
+                        width: 100%;
+                        height: 420px;
+                        /* border: 1px solid black; */
+                        background-color: whitesmoke;
+                        margin-top:100px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                }
+                .u1{
+                        width: 650px;
+                        height: 250px;
+                        /* border: 1px solid black;      */
+                        border-radius: 10px;
+                        background-image: url(image/i23.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+                .u2{
+                        width: 650px;
+                        height: 250px;
+                        /* border: 1px solid black; */
+                        border-radius: 10px;
+                        background-image: url(image/i24.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+                .u1:hover{
+                        box-shadow: 0px 0px 10px 0.5px;
+                }
+                .u2:hover{
+                        box-shadow: 0px 0px 10px 0.5px;
+                }
+                .v{
+                        width: 100%;
+                        height: 250px;
+                        /* border: 1px solid black; */
+                        margin-top: 20px;
+                        background-image: url(image/i25.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+                .w{
+                        width: 100%;
+                        height: 600px;
+                        /* border: 1px solid black; */
+                        background-image: url(image/i26.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+
+        </style>
+        </head>
+
+        <body>
+
+                <div class="header">
+                        <div class="sub">
+                                <div class="logo"></div>
+                                <nav>
+                                        <ul>
+                                                <li>
+                                                        <a href>HOME</a>
+                                                        <a href>ABOUT</a>
+                                                        <a href>SERVICES</a>
+                                                        <a href>PAGES</a>
+                                                        <a href>BLOG</a>
+                                                        <a href>CONTACT</a>
+                                                </li>
+                                        </ul>
+                                </nav>
+                        </div>
+                        <div class="a">
+                                <h1 id="A1">Build Your <span
+                                                class="B">Dream</span></h1>
+                                <p id="B1">Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit, sed do
+                                        eiusmod temp <br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim.</p>
+                                <button id="C1"> Discover Now</button>
+                        </div>
+                </div>
+                <div class="b">
+                        <h1 id="A2">Our Offered Services</h1>
+                        <p id="B2">Lorem ipsum dolor sit amet, consecteturadipis
+                                icing elit,</p>
+                </div>
+                <div class="c">
+                        <div class="d"></div>
+                        <div class="e"></div>
+                        <div class="f"></div>
+                </div>
+                <div class="g">
+                        <h1 id="A3">Our Latest Projects</h1>
+                        <p id="B3">Who are in extremely love with eco friendly
+                                system.</p>
+                </div>
+                <div class="h">
+                        <div class="i"><div class="o"><h1 id="A4">Alex
+                                Complex for Recidence</h1>
+                                <pid="B4">LCD screens are uniquely modern
+                                in style, and the liquid crystals that
+                                make them work have allowed humanity to
+                                create slimmer.</p></div></div>
+                        <div class="j"><div class="o"><h1 id="A4">Alex
+                                Complex for Recidence</h1> <p
+                                id="B4">LCD screens are uniquely modern
+                                in style, and the liquid crystals that
+                                make them work have allowed humanity to
+                                create slimmer.</p></div></div>
+                        <div class="k"><div class="o"><h1 id="A4">Alex
+                                Complex for Recidence</h1> <p
+                                id="B4">LCD screens are uniquely modern
+                                in style, and the liquid crystals that
+                                make them work have allowed humanity to
+                                create slimmer.</p></div></div>
+                        <div class="l"><div class="o"><h1 id="A4">Alex
+                                Complex for Recidence</h1> <p
+                                id="B4">LCD screens are uniquely modern
+                                in style, and the liquid crystals that
+                                make them work have allowed humanity to
+                                create slimmer.</p></div></div>
+                        <div class="m"><div class="o"><h1 id="A4">Alex
+                                Complex for Recidence</h1> <p
+                                id="B4">LCD screens are uniquely modern
+                                in style, and the liquid crystals that
+                                make them work have allowed humanity to
+                                create slimmer.</p></div></div>
+                        <div class="n"><div class="o"><h1 id="A4">Alex
+                                Complex for Recidence</h1> <p
+                                id="B4">LCD screens are uniquely modern
+                                in style, and the liquid crystals that
+                                make them work have allowed humanity to
+                                create slimmer.</p></div></div>
+                </div>
+                <div class="p">
+                                <h1 id="A5">Meet Our Expert Members</h1>
+                                <p id="B5">Who are in extremely love with eco friendly system.</p>
+                </div>
+                <div class="q">
+                        <div class="Q"><div class="q1"></div><h1 id="A6">Ethel Davis</h1> <p id="B6">Managing Directors (Sales)</p></div>
+                        <div class="Q"><div class="q2"></div><h1 id="A6">Ethel Davis</h1> <p id="B6">Managing Directors (Sales)</p></div>
+                        <div class="Q"><div class="q3"></div><h1 id="A6">Ethel Davis</h1> <p id="B6">Managing Directors (Sales)</p></div>
+                        <div class="Q"><div class="q4"></div><h1 id="A6">Ethel Davis</h1> <p id="B6">Managing Directors (Sales)</p></div>
+                </div>
+                <div class="r"></div>
+                <div class="s">
+                        <h1 id="A7">Some Features that Made us Unique</h1>
+                        <p id="B7">Who are in extremely love with eco friendly system.</p>
+                </div>
+                <div class="t">
+                        <div class="t1"></div>
+                        <div class="t2"></div>
+                        <div class="t3"></div>
+                        <div class="t4"></div>
+                        <div class="t5"></div>
+                        <div class="t6"></div>
+                </div>
+                <div class="u">
+                        <div class="U"><div class="u1"></div>
+                        <div class="u2"></div></div>
+                </div>
+                <div class="v"></div>
+                <div class="w"></div>
+
+        </body>
+
+</html>

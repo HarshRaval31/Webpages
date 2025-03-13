@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <!-- chart cdn  -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+        <!-- chart over  -->
+
+        <!-- calender  -->
+
+        <script src="css.js/vanilla-calendar.min.js"></script>
+        <link rel="stylesheet" href="css.js/vanilla-calendar.min.css">
+         
+        <!-- calender  -->
+
+
+
+        <link rel="stylesheet" href="login.html">
+    
+
+   
+</head>
+
+<body>
+    <div class="containerr">
+                
+        <div class="Loader"></div>
+</div> 
+    <aside>
+        <div class="as1"></div>
+    <div class="main">
+        <div class="as2">
+            <img src="image/apps (1).png">
+            <span class="as3">DashBoard</span>
+            <i class="fa-solid fa-angle-down"  style="color: #ffffff;" id="icon"></i>
+        </div>
+            <ul id="slide1">
+                <li>Default</li>
+                <li>Light SlideBar</li>
+                <li>Dark SlideBar</li>
+
+            </ul>
+        <div class="as4">
+            <i class="fa-solid fa-wallet" style="color: #929396;" id="icon2"></i>
+            <span class="as3">Crypto Wallet</span>
+        </div>
+
+        <div class="as4">
+            <i class="fa-solid fa-cart-shopping" style="color: #8b8e92;" id="icon2"></i>
+            <span class="as3">Buy & Sell</span>
+        </div>
+
+        <div class="as4">
+            <i class="fa-solid fa-user" style="color: #9e9e9e;" id="icon2"></i>
+            <span class="as3">Trader Profile</span>
+        </div>
+
+        <div class="as4">
+            <i class="fa-solid fa-signal" style="color: #9e9e9e;" id="icon2"></i>
+            <span class="as3">Crypto Stat</span>
+        </div>
+
+ <!-- 2 slide start  -->
+        <div class="as5">
+            <i class="fa-solid fa-money-check-dollar" style="color: #959393;" id="icon2"></i>
+            <span class="as3">Transaction</span>
+            <i class="fa-solid fa-angle-down"  style="color: #ffffff;" id="icon"></i>
+        </div>
+            <ul id="slide2">
+                <li>Request</li>
+                <li>Cancel</li>
+                <li>Refound</li>
+                <li>Payment Details</li>
+
+
+            </ul>
+
+<!-- 2 slide complete  -->
+
+<!-- 3 slide start  -->
+             
+<div class="as6">
+    <i class="fa-solid fa-ticket" style="color: #9c9c9c;" id="icon2"></i>
+    <span class="as3">Tickers</span>
+    <i class="fa-solid fa-angle-down"  style="color: #ffffff;" id="icon3"></i>
+</div>
+    <ul id="slide3">
+        <li>Ticker Dark</li>
+        <li>Ticket Light</li>
+       
+
+    </ul>
+
+<!-- 3 slide complete  -->
+
+<!-- 4 slide start  -->
+
+<div class="as7">
+    <i class="fa-brands fa-app-store-ios" style="color: #8b8c8d;" id="icon2"></i>
+    <span class="as3">Apps</span>
+    <i class="fa-solid fa-angle-down"  style="color: #ffffff;" id="icon4"></i>
+</div>
+    <ul id="slide4">
+        <li>Editor</li>
+        <li>Invoice</li>
+        <li>Builder</li>
+        <li>Calander</li>
+        <li>Board</li>
+        <li>Basic Card</li>
+        <li>Theme Card</li>
+        <li>Draggable Card</li>
+    </ul>
+
+<!-- 4 slide complete  -->
+
+<!-- 5 slide start  -->
+
+<div class="as8">
+    <i class="fa-solid fa-file" style="color: #797a7c;" id="icon2"></i>
+    <span class="as3">Pages</span>
+    <i class="fa-solid fa-angle-down"  style="color: #ffffff;" id="icon5"></i>
+</div>
+    <ul id="slide5">
+        <li>Role & Permission</li>
+        <li>FQA</li>
+        <li>Login </li>
+        <li>Register</li>
+        <li>Error 404</li>
+        <li>Error 500</li>
+        <li>Forget Password </li>
+        <li>Gallery</li>
+        <li>Modular Setting</li>
+        <li>Product</li>
+        <li>Product Detail</li>
+        <li>Cart</li>
+        <li>Checkout </li>
+
+    </ul>
+
+<!-- 5 slide complete  -->
+ <!-- 6 slide start  -->
+ <div class="as9">
+    <i class="fa-solid fa-sliders" style="color: #7d8187;" id="icon2"></i>
+    <span class="as3">General</span>
+    <i class="fa-solid fa-angle-down"  style="color: #ffffff;" id="icon6"></i>
+</div>
+    <ul id="slide6">
+        <li>Minimized Aside</li>
+        <li>Empty Pages</li>
+        <li>Fixed Footer </li>
+    </ul>
+
+
+<!-- 6 slide complete  -->
+
+<!-- 7 slide start  -->
+<div class="as10">
+    <i class="fa-regular fa-envelope" style="color: #959697;" id="icon2"></i>
+    <span class="as3">Email</span>
+    <i class="fa-solid fa-angle-down"  style="color: #ffffff;" id="icon7"></i>
+</div>
+    <ul id="slide7">
+        <li>Mail Box</li>
+        <li>Compose</li>
+        <li>Important Mail </li>
+        <li>Mail Trash </li>
+        <li>Chat </li>
+
+    </ul>
+
+<!-- 7 slide complete  -->
+
+<!-- 8 slide start  -->
+<!-- 
+<div class="as10">
+    <i class="fa-regular fa-envelope" style="color: #959697;" id="icon2"></i>
+    <span class="as3">Email</span>
+    <i class="fa-solid fa-angle-down"  style="color: #ffffff;" id="icon7"></i>
+</div>
+    <ul id="slide7">
+        <li>Mail Box</li>
+        <li>Compose</li>
+        <li>Important Mail </li>
+        <li>Mail Trash </li>
+        <li>Chat</li>
+
+    </ul> -->
+
+<!-- 8 slide complete  -->
+
+
+
+
+
+    </div>
+    </aside>
+    <header class="header">
+        <div class="h1">
+            <i class="fa-solid fa-bars-staggered" style="color: #23437b;" id="ic"></i>
+        </div>
+        <div class="h2">
+            <i class="fa-regular fa-envelope" style="color: #1c5bca;" id="hea"><div class="h4"></div></i>
+            <i class="fa-regular fa-bell" style="color: #1c5bca;" id="hea1"> <div class="h4"></div></i>
+        </div>
+        <div class="h3">
+            <div class="h5">
+                <img src="image/4 (1).png">
+            </div>
+            <div class="h6">
+                <spam class="h7">
+                    Jiue Anderson</spam>
+                <spam class="h8">Manager</spam>
+            </div>
+            <div class="logout">
+                <a href="login.html">
+                <i class="fa-solid fa-right-from-bracket"  style="color: #3473df;" ></a></i>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="section1">
+        <div class="a1">
+            <p class="a3">Dashboard</p>
+            <p class="a4">Dashboard/Crypto currenct</p>
+        </div>
+        <div class="a2">
+            <span class="a5">Purchase</span>
+            <img src="image/refugees-1015294_640.jpg">
+            <div class="co"><span class="counter">6,250</span></div>
+        </div>
+        <div class="a2">
+            <span class="a5">Sale</span>
+            <img src="image/refugees-1015309_640.jpg">
+            <div class="co"> <span class="counter"> 55,250</span></div>
+        </div>
+        <div class="a2">
+            <span class="a5">Purchase</span>
+            <img src="image/refugees-1020119_640.jpg">
+            <div class="co"> <span class="counter"> 4,510.60</span></div> 
+        </div>
+
+
+    </section>
+
+    <section class="section2">
+        <div class="b1">
+            <div class="b2">
+                <nav>
+                    <ul>
+                        <li><a href="">   Analytics </a></li>
+                        <li><a  href=""> Cryptocurrency </a></li>
+                        <li><a href="">Campaign</a>      </li>
+                        <li><a href="">   More</a><i class="fa-solid fa-caret-down" style="color: #969696;"></i></li>
+
+                    </ul>
+                </nav>
+                <div class="b4">
+                    <button type="button" class="b5">ToDo</button>
+                    <button type="button" class="b5">Setting</button>
+
+                </div>
+
+
+            </div>
+            <div class="b3">
+                <div class="b6">
+                    <p class="b7">Total Income</p>
+                    <p class="counter" style="color: white; font-size: 35px; padding-top: 20px; padding-left:20px;">14,025</p>
+                    <div class="b9">
+                        <spam class="b10">3.78</spam>
+                        <i class="fa-solid fa-caret-up" style="color: #ffffff;"></i>
+                        <spam class="b11">This year</spam>
+                    </div>
+                </div>
+                <div class="b6">
+                    <p class="b7">Sessions</p>
+                    <p class="counter" style="color: white; font-size: 35px; padding-top: 20px; padding-left:20px;">2025</p>
+                        <div class="b9">
+                           <spam class="b10">3.78</spam>
+                           <i class="fa-solid fa-caret-up" style="color: #ffffff;"></i>
+                           <spam class="b11">
+                            This month</spam>
+                        </div>
+                </div>
+                <div class="b6">
+                    <p class="b7">Ethereum Wallet</p>
+                    <p class="counter" style="color: white; font-size: 35px; padding-top: 20px; padding-left:20px;">8025</p>
+                       <div class="b9">
+                           <spam class="b10">3.78</spam>
+                           <i class="fa-solid fa-caret-up" style="color: #ffffff;"></i>
+                           <spam class="b11">
+                            This month</spam>
+                       </div>
+                </div>
+                <div class="b6">
+                    <p class="b7">Number of Clients</p>
+                    <p class="counter" style="color: white; font-size: 35px; padding-top: 20px; padding-left:20px;">5645 </p>
+                       <div class="b9">
+                           <spam class="b10">3.78</spam>
+                           <i class="fa-solid fa-caret-up" style="color: #ffffff;"></i>
+                           <spam class="b11">
+                            This month</spam>
+                       </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section3">
+       <div class="c1">
+        <p class="c3">Overview</p>
+        <p class="c4">Statistics, Predictive Analytics Data Visualization, Big Data Analytics, etc.</p>
+       </div>
+       <div class="c2">
+        <button class="c5">14 March 2024<i class="fa-solid fa-caret-down" style="color: #a4a3a3; font-size: 18px; padding-left: 10px; "></i></button>
+        <button class="c6">Export</button>
+
+       </div>
+
+    </section>
+
+    <section class="section4">
+        <div class="d1">
+            <canvas id="myChart" style="width:100%;max-width:800px; height:100%;"></canvas>
+        </div>
+        <div class="d2">
+            <div class="d3">
+                Your Portfolio<i class="fa-solid fa-ellipsis" style="color: #b0b0b0;"></i></div>
+            <div class="d4">
+                <p class="d6">$63411.00</p>
+                <p class="d7">Total Balance</p>
+            </div>
+            <div class="d5">
+                <div class="inbox1"><img src="image/bit.svg">
+                
+                <spam class="d8"> Bitcoin</spam>
+                <div class="d9">
+                    <p class="d10">0.000242 BTC</p>
+                    <p class="d11">0.125 USD</p>
+                </div>
+                </div>
+                <div class="inbox1">
+                    <img src="image/lit.svg">
+
+                    <spam class="d8"> Litecoin</spam>
+                    <div class="d9">
+                        <p class="d10">0.000242 BTC</p>
+                        <p class="d11">0.125 USD</p>
+                    </div>
+                </div>
+                <div class="inbox1">
+                    <img src="image/rip.svg">
+
+                    <spam class="d8">Ripple</spam>
+                    <div class="d9">
+                        <p class="d10">0.000242 BTC</p>
+                        <p class="d11">0.125 USD</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section5">
+       <div class="box1">
+            <div class="e1">
+                <div class="e3">
+                    <p class="c3">Earning</p>
+                   
+                </div>
+                <div class="e4">
+                    <button class="c5">Month</button>
+                    <button class="c6">Week</button>
+            
+                 </div>
+
+                 <table  >
+                    <tr style="font-family: Arial, Helvetica, sans-serif; color: gray; ">
+                        <th width="150px" height="70px" >NO</th>
+                        <th  width="150px" height="70px">Currency</th>
+                        <th  width="150px" height="70px">Plateform</th>
+                        <th width="150px" height="70px">Email</th>
+                        <th  width="150px" height="70px">ID</th>
+                        <th  width="150px" height="70px">Amount</th>
+                        <th  width="150px" height="70px">Status</th>
+
+
+                    </tr>
+                    
+                    <tr style="font-family: Arial, Helvetica, sans-serif; color: grey;" align="center">
+                        <td width="150px" height="50px">1</td>
+                        <td width="150px" height="50px"><img src="image/bit.svg"></td>
+                        <td width="150px" height="50px">	bitcoin.com</td>
+                        <td width="150px" height="50px">	Using - Bank</td>
+                        <td width="150px" height="50px">-0.454 USD</td>
+                        <td width="150px" height="50px">	$25.00</td>
+                        
+                        <td width="150px" height="50px">
+                            <div class="tr">Pending</div>
+                        </td>
+
+                    </tr>
+                
+
+
+                    <tr style="font-family: Arial, Helvetica, sans-serif; color: grey;" align="center">
+                        <td width="150px" height="50px">2</td>
+                        <td width="150px" height="50px"><img src="image/lit.svg"></td>
+                        <td width="150px" height="50px">	bitcoin.com</td>
+                        <td width="150px" height="50px">	Using - Bank</td>
+                        <td width="150px" height="50px">-0.454 USD</td>
+                        <td width="150px" height="50px">	$25.00</td>
+                        
+                        <td width="150px" height="50px">
+                            <div class="tr">Pending</div>
+                        </td>
+
+                    </tr>
+                    
+
+                    <tr style="font-family: Arial, Helvetica, sans-serif; color: grey;" align="center">
+                        <td width="150px" height="50px">3</td>
+                        <td width="150px" height="50px"><img src="image/rip.svg"></td>
+                        <td width="150px" height="50px">	bitcoin.com</td>
+                        <td width="150px" height="50px">	Using - Bank</td>
+                        <td width="150px" height="50px">-0.454 USD</td>
+                        <td width="150px" height="50px">	$25.00</td>
+                        
+                        <td width="150px" height="50px">
+                            <div class="tr">Pending</div>
+                        </td>
+
+                    </tr>
+                    
+
+                    <tr style="font-family: Arial, Helvetica, sans-serif; color: grey;" align="center">
+                        <td width="150px" height="50px">4</td>
+                        <td width="150px" height="50px"><img src="image/bit.svg"></td>
+                        <td width="150px" height="50px">	bitcoin.com</td>
+                        <td width="150px" height="50px">	Using - Bank</td>
+                        <td width="150px" height="50px">-0.454 USD</td>
+                        <td width="150px" height="50px">	$25.00</td>
+                        
+                        <td width="150px" height="50px">
+                            <div class="tr1">Success</div>
+                        </td>
+
+                    </tr>
+                    
+                 </table>
+            </div>
+            <div class="e2">
+                <div class="e5">
+                    <div class="d3">
+                        Exchange<i class="fa-solid fa-ellipsis" style="color: #b0b0b0;"></i>
+                    </div>
+
+                    <div class="i1">
+                        <div class="circle"></div>
+                        <p class="text">5 min ago</p>
+                        <p class="text2">Lorem ipsum dolor sit amet, consectetur <br>elit. Quisque scelerisque</p>
+                    </div>
+                    <div class="i1">
+                        <div class="circle"></div>
+                        <p class="text">6 min ago</p>
+                        <p class="text2">Lorem ipsum dolor sit amet, consectetur <br>elit. Quisque scelerisque</p>
+                    </div>
+                    <div class="i1">
+                        <div class="circle"></div>
+                        <p class="text">7 min ago</p>
+                        <p class="text2">Lorem ipsum dolor sit amet, consectetur <br>elit. Quisque scelerisque</p>
+                    </div>
+                    <div class="i1">
+                        <div class="circle"></div>
+                        <p class="text">8 min ago</p>
+                        <p class="text2">Lorem ipsum dolor sit amet, consectetur <br>elit. Quisque scelerisque</p>
+                    </div>
+
+
+
+                </div>
+                <div id="calendar"></div>
+
+            </div>
+
+       </div>
+       <div class="box2">
+        <div class="g1">Market News</div>
+        <div class="g2">
+            <div class="g3"><img src="image/a..svg">
+            <p class="g4">Lorem, ipsum dolor <br>sit amet consectetur adipisicing </p> </div>
+            <div class="g3"><img src="image/b..svg">
+            <p class="g4">Lorem, ipsum dolor <br>sit amet consectetur adipisicing</p>  </div>
+            <div class="g3"><img src="image/a..svg">
+            <p class="g4">Lorem, ipsum dolor <br>sit amet consectetur adipisicing </p> </div>
+            <div class="g3"><img src="image/b..svg">
+            <p class="g4">Lorem, ipsum dolor<br> sit amet consectetur adipisicing </p> </div>
+           
+
+
+        </div>
+       </div>
+    </section>
+
+    <section class="section6">
+        <div class="ls">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14766.63812518886!2d70.7788682!3d22.2908834!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959cb147744699d%3A0x2060a6cbc4a6e0bd!2sRed%20%26%20White%20Multimedia%20Education!5e0!3m2!1sen!2sin!4v1705636296146!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/vanilla-calendar.min.mjs"></script>
+
+<script>
+
+
+    $(document).ready(function(){
+        $(".as2").click(function(){
+            $("#slide1").slideToggle();
+        });
+
+        $(".as5").click(function(){
+            $("#slide2").slideToggle();
+        });
+
+        $(".as6").click(function(){
+            $("#slide3").slideToggle();
+        });
+
+        $(".as7").click(function(){
+            $("#slide4").slideToggle();
+        });
+
+        $(".as8").click(function(){
+            $("#slide5").slideToggle();
+        });
+
+        $(".as9").click(function(){
+            $("#slide6").slideToggle();
+        });
+
+        $(".as10").click(function(){
+            $("#slide7").slideToggle();
+        });
+
+        $("#ic").click(function(){
+            $("aside").toggleClass("slidebar");
+            $(".header").toggleClass("header1");
+            $(".section1").toggleClass("header1");
+            $(".section2").toggleClass("header1");
+            $(".section3").toggleClass("header1");
+            $(".section4").toggleClass("header1");
+            $(".section5").toggleClass("header1");
+            $(".section6").toggleClass("header1");
+            $(".as1").toggleClass("imn");
+            $(".as3").toggleClass("ter");
+            $(".as2").toggleClass("ter");
+         
+        });
+
+
+
+
+        $(".counter").counterUp({
+          delay: 5,
+          time: 4000,
+        });
+
+
+
+    });
+</script>
+<script>
+    const xValues = [50,60,70,80,90,100,110,120,130,140,150];
+    const yValues = [7,8,8,9,9,9,10,11,14,14,15];
+    
+    new Chart("myChart", {
+      type: "line",
+      data: {
+        labels: xValues,
+        datasets: [{
+          fill: false,
+          lineTension: 0,
+          backgroundColor: "rgba(0,0,255,1.0)",
+          borderColor: "rgba(0,0,255,0.1)",
+          data: yValues
+        }]
+      },
+      options: {
+        legend: {display: false},
+        scales: {
+          yAxes: [{ticks: {min: 6, max:16}}],
+        }
+      }
+    });
+    </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const calendar = new VanillaCalendar('#calendar');
+      calendar.init();
+    });
+  </script>
+
+<script>
+    $(window).on ("load",function(){
+        $(".containerr").fadeOut(2000)
+    })
+</script>
+    
+
+</html>
